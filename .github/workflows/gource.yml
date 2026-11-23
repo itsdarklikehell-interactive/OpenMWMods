@@ -2,11 +2,11 @@ name: Gource visualization
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, chore/improve-docs-ci]
     paths-ignore:
       - "gource.mp4"
   pull_request:
-    branches: [main, master]
+    branches: [main]
     paths-ignore:
       - "gource.mp4"
   workflow_dispatch:
